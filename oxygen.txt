@@ -1,6 +1,7 @@
-repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
-git clone https://github.com/sounddrill31/android_device_xiaomi_oxygen-3 device/xiaomi/oxygen -b lineage-21-qpr3
-git clone https://github.com/halibw/android_kernel_xiaomi_oxygen kernel/xiaomi/oxygen -b lineage-21
-git clone https://github.com/sounddrill31/proprietary_vendor_oxygen vendor/xiaomi/oxygen -b lineage-21-qpr3
-git clone https://github.com/halibw-dev/hardware_qcom_msm8953_4.19_audio -b 9.6.4.r1-05200 hardware/qcom-caf/msm8953/audio
-git clone https://github.com/halibw-dev/hardware_qcom_msm8953_4.19_media -b LA.UM.9.6.4.r1-05200 hardware/qcom-caf/msm8953/media
+repo init -u https://github.com/accupara/los23.2.git -b lineage-22.2 --git-lfs
+git clone https://github.com/LineageOS/android_device_xiaomi_miatoll device/xiaomi/miatoll -b lineage-22.2
+git clone https://github.com/LineageOS/android_device_xiaomi_sm6250-common device/xiaomi/sm6250-common -b lineage-22.2
+git clone https://github.com/LineageOS/android_kernel_xiaomi_sm6250 kernel/xiaomi/sm6250 -b lineage-22.2
+git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi -b lineage-22.2
+git clone https://github.com/LineageOS/android_hardware_sony_timekeep hardware/sony/timekeep -b lineage-22.2
+git clone https://github.com/crdroidandroid/proprietary_vendor_xiaomi_miatoll vendor/xiaomi/miatoll -b 15.0
